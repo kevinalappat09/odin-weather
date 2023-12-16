@@ -7,6 +7,7 @@
 
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
 </head>
 <body>
     <div class="selector">
@@ -18,34 +19,24 @@
             <option value="Munich">Munich</option>
             <option value="Tokyo">Tokyo</option>
         </select>
-        <button class="getWeather">Get Weather</button>
-        <div class="tempButtonGroup">
-            <button class="switch_c">Switch To celsius</button>
-            <button class="switch_f">Switch To Fahrenheit</button>
-        </div>
+        <button class="get-weather">Get Weather</button>
     </div>
     <div class="information">
-        <div class="overview">
-            <div class="temp-cont">Temperature : 
-                <span class="temp_c"></span>
-                <span class="temp_f"></span>
-            </div>
-            <div class="condition-cont">Condition : 
-                <span class="condition"></span>
-            </div>
+        <div class="location">
+            <div class="city"></div>
+            <div class="country"></div>
+            <div class="longlat"></div>
         </div>
-        <div class="specific">
-            <div class="precip">Precipitation : 
-                <span class="precip_in"></span>
-                <span class="precip_mm"></span>
+
+        <div class="weather-overview">
+            <div class="condition">
+                <div class="condition-icon"></div>
+                <div class="condition-text"></div>
             </div>
-            <div class="gust">Gust :
-                <span class="gust_kph"></span>
-                <span class="gust_mph"></span>
-            </div>
+            <div class="temp"></div>
+            <div class="precip"></div>
         </div>
     </div>
-
 
 </body>
 </html>

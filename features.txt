@@ -1,0 +1,10 @@
+Features  : 
+1. Select the weather from a dropdown of cities.
+2. Displays the weather.
+3. Changes background color based on night or day.
+4. Changes icon of the condition.
+5. Buttons for switching between celsius and fahrenheit.
+
+1. Get the data from the api into a weather packet object.
+2. function returns the weather packet object and you can then use it to remake the UI
+3. whenever a rebuild of the UI is necessary the weather packet is used.
