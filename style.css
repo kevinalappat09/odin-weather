@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.temp_f {
+    visibility: hidden;
+}
+
+.precip_mm {
+    visibility:  hidden;
+}
+
+.gust_mph { 
+    visibility: hidden;
+}

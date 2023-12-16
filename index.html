@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="selector">
+        <select name="select-location" id="locSelect">
+            <option value="Mumbai">Mumbai</option>
+            <option value="London">London</option>
+            <option value="Paris">Paris</option>
+            <option value="Las Vegas">Las Vegas</option>
+            <option value="Munich">Munich</option>
+            <option value="Tokyo">Tokyo</option>
+        </select>
+        <button class="getWeather">Get Weather</button>
+        <div class="tempButtonGroup">
+            <button class="switch_c">Switch To celsius</button>
+            <button class="switch_f">Switch To Fahrenheit</button>
+        </div>
+    </div>
+    <div class="information">
+        <div class="overview">
+            <div class="temp-cont">Temperature : 
+                <span class="temp_c"></span>
+                <span class="temp_f"></span>
+            </div>
+            <div class="condition-cont">Condition : 
+                <span class="condition"></span>
+            </div>
+        </div>
+        <div class="specific">
+            <div class="precip">Precipitation : 
+                <span class="precip_in"></span>
+                <span class="precip_mm"></span>
+            </div>
+            <div class="gust">Gust :
+                <span class="gust_kph"></span>
+                <span class="gust_mph"></span>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
